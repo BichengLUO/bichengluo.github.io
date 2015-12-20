@@ -239,6 +239,7 @@ hr {
 a {
   color: #63c0f5;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  text-decoration: none;
 }
 
 /* Clearfix */
@@ -264,4 +265,46 @@ a {
 .project_agenda, .project_img, .project_info {
   display: inline-block;
   vertical-align: middle;
+}
+
+.project_info span {
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 3px;
+}
+
+.project_info span.iOS {
+  background-color: #95c823;
+}
+
+.project_info span.Objective-C {
+  background-color: #c89523;
+}
+
+.project_info span.WebGL {
+  background-color: #23a859;
+}
+
+.project_info span.GLSL {
+  background-color: #9523c8;
+}
+
+.project_info span.Java {
+  background-color: #0023c8;
+}
+
+.project_info span.Android {
+  background-color: #c3c800;
+}
+
+.project_info span.Javascript {
+  background-color: #53a000;
+}
+
+.project_info span.HTML {
+  background-color: #a02953;
+}
+
+.project_info span.CSS {
+  background-color: #a000a6;
 }
