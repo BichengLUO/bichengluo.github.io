@@ -222,6 +222,16 @@ hr {
   background: url("../images/blacktocat.png") 0 0 no-repeat;
 }
 
+.btn-facebook .icon {
+  opacity: 0.6;
+  background: url("../images/fb.png") 0 0 no-repeat;
+}
+
+.btn-twitter .icon {
+  opacity: 0.6;
+  background: url("../images/tw.png") 0 0 no-repeat;
+}
+
 /* Links
    a, a:hover, a:visited
 */
@@ -244,4 +254,14 @@ a {
 
 .cf {
   zoom:1;
+}
+
+.project_icon {
+  width: 100px;
+  height: 100px;
+}
+
+.project_agenda, .project_img, .project_info {
+  display: inline-block;
+  vertical-align: middle;
 }
