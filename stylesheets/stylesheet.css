@@ -320,3 +320,12 @@ a {
 .project_info span.Win32 {
   background-color: #a0006a;
 }
+
+.left_float_panel {
+  position: fixed;
+  left: 30px;
+  top: 200px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 10px;
+}
