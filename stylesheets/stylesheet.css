@@ -257,6 +257,10 @@ a {
   zoom:1;
 }
 
+.separator {
+  border-top: 1px dashed #5f5f5f;
+}
+
 .project_icon {
   width: 100px;
   height: 100px;
