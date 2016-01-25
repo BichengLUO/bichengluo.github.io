@@ -222,6 +222,11 @@ hr {
   background: url("../images/blacktocat.png") 0 0 no-repeat;
 }
 
+.btn-resume .icon {
+  opacity: 0.6;
+  background: url("../images/resume_icon.png") 0 0 no-repeat;
+}
+
 .btn-facebook .icon {
   opacity: 0.6;
   background: url("../images/fb.png") 0 0 no-repeat;
