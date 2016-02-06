@@ -276,6 +276,10 @@ a {
   vertical-align: middle;
 }
 
+.project_info {
+  line-height: 180%
+}
+
 .project_info span {
   border-radius: 5px;
   color: #ffffff;
@@ -345,7 +349,7 @@ a {
   }
 }
 
-@media screen and (max-width:414px) {
+@media screen and (max-width:415px) {
   header h1{
     margin: 0;
   }
@@ -354,7 +358,7 @@ a {
     font-size: 16px;
   }
   section {
-    margin: 0 40px 20px 40px;
+    margin: 10px 40px 10px 40px;
     text-align: center;
   }
   .btn .icon {
@@ -362,5 +366,17 @@ a {
   }
   .btn-title {
     display: none;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  header h1 {
+    font-size: 28px;
+  }
+  header h2 {
+    font-size: 14px;
+  }
+  .container {
+    font-size: 14px;
   }
 }
