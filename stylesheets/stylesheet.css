@@ -379,4 +379,27 @@ a {
   .container {
     font-size: 14px;
   }
+  .project_icon {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  header h1 {
+    font-size: 24px;
+  }
+  header h2 {
+    font-size: 12px;
+  }
+  .container {
+    font-size: 12px;
+  }
+  .project_icon {
+    width: 80px;
+    height: 80px;
+  }
+  section {
+    margin: 10px 20px 10px 20px;
+  }
 }
