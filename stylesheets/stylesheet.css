@@ -326,6 +326,10 @@ a {
   background-color: #a0006a;
 }
 
+.project_info span.Python {
+  background-color: #a04010;
+}
+
 .left_float_panel {
   position: fixed;
   left: 30px;
