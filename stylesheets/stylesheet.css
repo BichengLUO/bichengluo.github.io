@@ -344,3 +344,23 @@ a {
     display: none;
   }
 }
+
+@media screen and (max-width:414px) {
+  header h1{
+    margin: 0;
+  }
+  header h2{
+    margin: 0 40px;
+    font-size: 16px;
+  }
+  section {
+    margin: 0 40px 20px 40px;
+    text-align: center;
+  }
+  .btn .icon {
+    margin: 0
+  }
+  .btn-title {
+    display: none;
+  }
+}
