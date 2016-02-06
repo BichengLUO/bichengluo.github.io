@@ -352,9 +352,6 @@ a {
   .left_float_panel {
     display: none;
   }
-  .ribbon {
-    display: none;
-  }
 }
 
 @media screen and (max-width:668px) {
@@ -377,6 +374,9 @@ a {
   }
   .container {
     font-size: 14px;
+  }
+  .ribbon {
+    display: none;
   }
 }
 
