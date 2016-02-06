@@ -372,6 +372,10 @@ a {
   section {
     text-align: center;
   }
+  .demo-pic {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 376px) {
