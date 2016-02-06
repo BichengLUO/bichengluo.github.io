@@ -349,7 +349,7 @@ a {
   }
 }
 
-@media screen and (max-width:415px) {
+@media screen and (max-width:569px) {
   header h1{
     margin: 0;
   }
@@ -359,13 +359,18 @@ a {
   }
   section {
     margin: 10px 40px 10px 40px;
-    text-align: center;
   }
   .btn .icon {
     margin: 0
   }
   .btn-title {
     display: none;
+  }
+}
+
+@media screen and (max-width:481px) {
+  section {
+    text-align: center;
   }
 }
 
