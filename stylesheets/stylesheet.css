@@ -349,7 +349,7 @@ a {
   }
 }
 
-@media screen and (max-width:569px) {
+@media screen and (max-width:668px) {
   header h1{
     margin: 0;
   }
@@ -359,6 +359,7 @@ a {
   }
   section {
     margin: 10px 40px 10px 40px;
+    text-align: center;
   }
   .btn .icon {
     margin: 0
@@ -369,9 +370,6 @@ a {
 }
 
 @media screen and (max-width:481px) {
-  section {
-    text-align: center;
-  }
   .demo-pic {
     width: 100%;
     height: auto;
@@ -380,7 +378,7 @@ a {
 
 @media screen and (max-width: 376px) {
   header h1 {
-    font-size: 28px;
+    font-size: 26px;
   }
   header h2 {
     font-size: 14px;
