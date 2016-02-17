@@ -348,10 +348,6 @@ a {
   font-size: 14px;
 }
 
-.right .github-fork-ribbon {
-  background-color: #333;
-}
-
 @media screen and (max-width:900px) {
   .left_float_panel {
     display: none;
@@ -378,9 +374,6 @@ a {
   }
   .container {
     font-size: 14px;
-  }
-  .github-fork-ribbon-wrapper {
-    display: none;
   }
 }
 
