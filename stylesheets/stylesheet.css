@@ -489,6 +489,9 @@ a {
     width: 100%;
     height: auto;
   }
+  .text-editor-wrap {
+    margin: 0 auto 40px auto;
+  }
 }
 
 @media screen and (max-width: 385px) {
