@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
 body {
   margin: 0;
   padding: 0;
@@ -5,7 +6,7 @@ body {
   color: #eaeaea;
   font: 16px;
   line-height: 1.5;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: "Ubuntu", sans-serif;
 }
 
 /* General & 'Reset' Stuff */
@@ -46,23 +47,13 @@ header {
 }
 
 header h1 {
-  font-size: 30px;
-  line-height: 1.5;
-  margin: 0 0 0 -40px;
-  font-weight: bold;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #b5e853;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-               0 0 5px rgba(181, 232, 83, 0.1),
-               0 0 10px rgba(181, 232, 83, 0.1);
-  letter-spacing: -1px;
-  -webkit-font-smoothing: antialiased;
-}
-
-header h1:before {
-  content: "./ ";
-  font-size: 24px;
-}
+    margin: 10px 0 20px;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    color: #fff;
+    text-shadow: #000 0px 2px 4px; }
 
 header h2 {
   font-size: 18px;
@@ -83,7 +74,7 @@ section img {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: "Ubuntu", sans-serif;
   color: #b5e853;
   letter-spacing: -0.03em;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
@@ -131,7 +122,7 @@ ul li {
 
 ul li:before {
   content: ">>";
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: "Ubuntu", sans-serif;
   font-size: 13px;
   color: #b5e853;
   margin-left: -37px;
@@ -193,7 +184,7 @@ hr {
   border-bottom: 1px solid rgba(0, 0, 0, 0.7);
   border-top: 1px solid rgba(0, 0, 0, 1);
   color: rgba(255, 255, 255, 0.8);
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: bold;
   font-size: 13px;
   text-decoration: none;
@@ -346,7 +337,7 @@ a {
 }
 
 .container {
-  font-size: 14px;
+  font-size: 100%;
 }
 
 /* Grow */
@@ -479,13 +470,6 @@ a {
 }
 
 @media screen and (max-width:668px) {
-  header h1{
-    margin: 0;
-  }
-  header h2{
-    margin: 0 40px;
-    font-size: 16px;
-  }
   section {
     margin: 10px 40px 10px 40px;
   }
@@ -494,9 +478,6 @@ a {
   }
   .btn-title {
     display: none;
-  }
-  .container {
-    font-size: 14px;
   }
 }
 
@@ -508,12 +489,6 @@ a {
 }
 
 @media screen and (max-width: 385px) {
-  header h1 {
-    font-size: 24px;
-  }
-  header h2 {
-    font-size: 14px;
-  }
   .project_icon {
     width: 90px;
     height: 90px;
@@ -521,15 +496,6 @@ a {
 }
 
 @media screen and (max-width: 361px) {
-  header h1 {
-    font-size: 22px;
-  }
-  header h2 {
-    font-size: 12px;
-  }
-  .container {
-    font-size: 12px;
-  }
   .project_icon {
     width: 80px;
     height: 80px;
