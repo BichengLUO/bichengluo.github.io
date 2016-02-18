@@ -11,4 +11,20 @@ $(function() {
       }
     }
   });
+
+  $("#typed").typed({
+        strings: ["Hello, World!",
+                  "I am <strong>Bicheng LUO</strong>",
+                  "I am an <strong>software engineer</strong>",
+                  "I am an <strong>iOS/Python/JavaScript</strong> dev",
+                  "I wrote in <strong>C/C++/Java</strong>, too",
+                  "I am studying in <strong>Tsinghua University</strong>",
+                  "I got my bachelor in <strong>Nanjing University</strong>",
+                  "I once worked as research intern in <strong>University of Queensland</strong>",
+                  "I once worked as intern in <strong>Morgan Stanley</strong>",
+                  "I once founded a <strong>startup</strong> with my friends, too",
+                  "I am not just these",
+                  "See the <strong>projects</strong> below to know more about <strong>Bicheng</strong>"],
+        typeSpeed: 30
+  });
 });
