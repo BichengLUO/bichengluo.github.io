@@ -39,7 +39,7 @@ li {
 
 header {
   background: url(../images/head_back.png) top center no-repeat fixed;
-  background-size: cover;
+  background-size: auto;
   width: 100%;
   border-bottom: 1px dashed #b5e853;
   padding: 20px 0;
@@ -48,7 +48,7 @@ header {
 
 header h1 {
     margin: 10px 0 20px;
-    font-size: 2.5em;
+    font-size: 2.2em;
     font-weight: bold;
     font-family: "Ubuntu", sans-serif;
     text-align: center;
@@ -398,7 +398,7 @@ a {
   display: block;
   max-width: 530px;
   max-height: 150px;
-  margin: auto;
+  margin: 0 auto 160px auto;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.8) 0px 20px 70px;
   clear: both;
@@ -466,6 +466,9 @@ a {
 @media screen and (max-width:900px) {
   .left_float_panel {
     display: none;
+  }
+  .text-editor-wrap {
+    margin: 0 auto 80px auto;
   }
 }
 
