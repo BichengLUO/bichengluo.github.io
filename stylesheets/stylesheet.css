@@ -447,6 +447,12 @@ a {
     100% { opacity:1; }
 }
 
+@media screen and (max-width:1025px) {
+  .left_float_panel {
+    left: 0;
+  }
+}
+
 @media screen and (max-width:900px) {
   .left_float_panel {
     display: none;
