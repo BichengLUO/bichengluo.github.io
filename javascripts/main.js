@@ -27,4 +27,13 @@ $(function() {
                   "See the <strong>projects</strong> below to know more about <strong>Bicheng</strong>"],
         typeSpeed: 30
   });
+
+  $(document).scroll(function(){
+    var y = $(this).scrollTop();
+    if (y > 520) {
+      $('.left_float_panel').addClass('left_float_panel_show')
+    } else {
+      $('.left_float_panel').removeClass('left_float_panel_show')
+    }
+  })
 });
