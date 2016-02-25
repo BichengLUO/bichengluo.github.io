@@ -31,9 +31,12 @@ $(function() {
   $(document).scroll(function(){
     var y = $(this).scrollTop();
     if (y > 520) {
-      $('.left_float_panel').addClass('left_float_panel_show')
+      $('.left_float_panel').addClass('left_float_panel_show');
     } else {
-      $('.left_float_panel').removeClass('left_float_panel_show')
+      $('.left_float_panel').removeClass('left_float_panel_show');
     }
-  })
+  });
+
+  $('header').lazyload({effect: 'fadeIn'});
+  $('img.demo-pic').lazyload({effect: 'fadeIn'});
 });
