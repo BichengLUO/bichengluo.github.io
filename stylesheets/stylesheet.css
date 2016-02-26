@@ -19,7 +19,7 @@ body {
 
 section {
   display: block;
-  margin: 0 0 20px 0;
+  margin: 0 0 60px 0;
   text-align: center;
 }
 
@@ -438,10 +438,11 @@ a {
   border-radius: 5px;
   display: none;
   position: absolute;
-  min-width: 90px;
+  width: 90px;
   padding: 5px;
   font-size: 13px;
   line-height: 200%;
+  z-index: 100;
 }
 
 .resume-menu a {
@@ -498,6 +499,10 @@ strong.highlight {
   }
   .btn-title {
     display: none;
+  }
+  .resume-menu {
+    font-size: 18px;
+    width: 130px;
   }
 }
 
