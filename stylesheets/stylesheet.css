@@ -321,7 +321,7 @@ a {
 }
 
 .demo-pic {
-  border-radius: 16px;
+  border-radius: 8px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5), 0 4px 10px 0 rgba(0, 0, 0, 0.49);
 }
 
@@ -395,6 +395,7 @@ a {
   font-weight: 500;
   text-align: left;
   overflow: hidden;
+  word-break: break-all;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
@@ -450,6 +451,26 @@ a {
 
 .resume-btn-container:hover .resume-menu {
   display: block;
+}
+
+.demo-container {
+  position: relative;
+}
+
+.gif-type {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  padding: 2px 5px 2px 5px;
+  display: inline-block;
+  left: 5px;
+  bottom: 10px;
+  z-index: 100;
+  font-size: 70%;
+}
+
+strong.highlight {
+  color: #63c0f5;
 }
 
 @media screen and (max-width:1025px) {
