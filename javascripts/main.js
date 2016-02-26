@@ -37,6 +37,4 @@ $(function() {
     }
   });
 
-  $('header').lazyload({effect: 'fadeIn'});
-  $('img.demo-pic').lazyload({effect: 'fadeIn'});
 });
