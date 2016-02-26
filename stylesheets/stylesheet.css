@@ -428,6 +428,30 @@ a {
     100% { opacity:1; }
 }
 
+.resume-btn-container {
+  display: inline-block;
+}
+
+.resume-menu {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  display: none;
+  position: absolute;
+  min-width: 90px;
+  padding: 5px;
+  font-size: 13px;
+  line-height: 200%;
+}
+
+.resume-menu a {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.resume-btn-container:hover .resume-menu {
+  display: block;
+}
+
 @media screen and (max-width:1025px) {
   .left_float_panel {
     left: 0;
