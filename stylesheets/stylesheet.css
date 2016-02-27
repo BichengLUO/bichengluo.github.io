@@ -313,6 +313,7 @@ a {
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
   transition-property: transform;
+  width: 180px;
 }
 
 .left_float_panel_show {
@@ -405,6 +406,11 @@ a {
 #navi-body.text-body {
   font-size: 0.9em;
   font-family: "Ubuntu", sans-serif;
+  height: 100%;
+}
+
+#navi-body.text-body ol li a {
+  width: 100%;
 }
 
 .typed-cursor{
@@ -429,6 +435,28 @@ a {
     100% { opacity:1; }
 }
 
+/* BACKGROUND TRANSITIONS */
+/* Fade */
+.hvr-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-color: #2098d1;
+  color: white;
+}
+
 .resume-btn-container {
   display: inline-block;
 }
@@ -448,6 +476,7 @@ a {
 .resume-menu a {
   color: rgb(255, 255, 255);
   font-weight: bold;
+  width: 100%;
 }
 
 .resume-btn-container:hover .resume-menu {
