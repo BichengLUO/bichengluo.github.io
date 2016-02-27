@@ -43,11 +43,11 @@ $(function() {
     $('.resume-btn-container a.btn').click(function(e){
       e.preventDefault();
       e.stopPropagation();
-      $resumemenu.show();
+      $resumemenu.fadeIn();
     });
     $(document).on('touchstart', function(event){
       if (!($resumemenu.is(event.target)) && ($resumemenu.has(event.target).length === 0)) {
-        $resumemenu.hide();
+        $resumemenu.fadeOut();
       }
     });
   }
