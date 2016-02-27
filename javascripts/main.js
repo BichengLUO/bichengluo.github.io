@@ -37,4 +37,15 @@ $(function() {
     }
   });
 
+  if ($('.btn-title').css('display') === 'none') {
+    $('.resume-btn-container').removeClass('hover-to-show');
+    $('.resume-btn-container a.btn').click(function(e){
+      e.preventDefault();
+      $('.resume-menu').css('display', 'block');
+      $('.resume-menu').focus();
+    });
+    $('.resume-menu').on('blur', function(){
+      $(this).css('display', 'none');
+    })
+  }
 });
