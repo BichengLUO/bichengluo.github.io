@@ -37,7 +37,7 @@ $(function() {
     }
   });
 
-  if ($('.btn-title').css('display') === 'none') {
+  if ('ontouchstart' in document.documentElement) {
     $('.resume-btn-container').removeClass('hover-to-show');
     var $resumemenu = $('.resume-menu');
     $('.resume-btn-container a.btn').click(function(e){
