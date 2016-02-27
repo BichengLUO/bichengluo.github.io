@@ -39,13 +39,16 @@ $(function() {
 
   if ($('.btn-title').css('display') === 'none') {
     $('.resume-btn-container').removeClass('hover-to-show');
+    var $resumemenu = $('.resume-menu');
     $('.resume-btn-container a.btn').click(function(e){
       e.preventDefault();
-      $('.resume-menu').css('display', 'block');
-      $('.resume-menu').focus();
+      e.stopPropagation();
+      $resumemenu.show();
     });
-    $('.resume-menu').on('blur', function(){
-      $(this).css('display', 'none');
-    })
+    $(document).on('tap', function(event){
+      if (!($resumemenu.is(event.target)) && ($resumemenu.has(event.target).length === 0)) {
+        $resumemenu.hide();
+      }
+    });
   }
 });
