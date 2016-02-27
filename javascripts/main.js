@@ -45,7 +45,7 @@ $(function() {
       e.stopPropagation();
       $resumemenu.show();
     });
-    $(document).on('tap', function(event){
+    $(document).on('touchstart', function(event){
       if (!($resumemenu.is(event.target)) && ($resumemenu.has(event.target).length === 0)) {
         $resumemenu.hide();
       }
