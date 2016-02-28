@@ -24,7 +24,7 @@ $(function() {
                   "I worked as an intern in <strong class=\"highlight\">Morgan Stanley</strong>.",
                   "I founded a <strong class=\"highlight\">startup</strong> with my friends.",
                   "I am not just these.",
-                  "See the <strong class=\"highlight\"><i class=\"fa fa-rocket\" />projects</strong> below to know more about <strong class=\"highlight\">Bicheng</strong>.<i class=\"fa fa-level-down\"></i>"],
+                  "See the <strong class=\"highlight\"><i class=\"fa fa-rocket\" />projects</strong> and <strong class=\"highlight\"><i class=\"fa fa-map-pin\" />experiences</strong> below to know more about <strong class=\"highlight\">Bicheng</strong>.<i class=\"fa fa-level-down\"></i>"],
         typeSpeed: 30
   });
 
@@ -51,4 +51,14 @@ $(function() {
       }
     });
   }
+
+  $('.experiences').click(function(){
+    $('.projects').removeClass('tab-on').addClass('tab-off');
+    $(this).removeClass('tab-off').addClass('tab-on');
+  });
+
+  $('.projects').click(function(){
+    $('.experiences').removeClass('tab-on').addClass('tab-off');
+    $(this).removeClass('tab-off').addClass('tab-on');
+  });
 });

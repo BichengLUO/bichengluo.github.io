@@ -511,21 +511,26 @@ strong.highlight {
 
 .tab {
   display: inline-block;
-  width: 30%;
+  width: 40%;
   height: 100%;
   text-align: center;
   margin-left: 5px;
   margin-right: 5px;
-  font-size: 110%;
+  cursor: pointer;
 }
 
-.projects {
+.tab-on {
   border-bottom: 3px solid #63c0f5;
   font-weight: bold;
 }
 
-.experiences {
+.tab-off {
   color: rgba(255, 255, 255, 0.4);
+}
+
+.tab-off:hover {
+  color: rgba(255, 255, 255, 0.8);
+  border-bottom: 3px solid #3a3a3a;
 }
 
 @media screen and (max-width:1025px) {
