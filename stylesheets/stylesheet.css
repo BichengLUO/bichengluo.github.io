@@ -372,7 +372,7 @@ a {
 
 .title-bar {
   padding: 5px 0;
-  font-family: "Lucida Grande", sans-serif;
+  font-family: "Lucida Grande", "Lucida Console", sans-serif;
   font-size: 0.75em;
   text-align: center;
   color: rgba(0, 0, 0, 1);
