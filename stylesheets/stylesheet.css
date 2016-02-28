@@ -495,11 +495,37 @@ a {
   left: 5px;
   bottom: 10px;
   z-index: 100;
-  font-size: 70%;
+  font-size: 80%;
+  font-weight: bold;
 }
 
 strong.highlight {
   color: #63c0f5;
+}
+
+.tabbar {
+  text-align: center;
+  height: 35px;
+  margin-bottom: 40px;
+}
+
+.tab {
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 110%;
+}
+
+.projects {
+  border-bottom: 3px solid #63c0f5;
+  font-weight: bold;
+}
+
+.experiences {
+  color: rgba(255, 255, 255, 0.4);
 }
 
 @media screen and (max-width:1025px) {
