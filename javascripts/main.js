@@ -55,10 +55,14 @@ $(function() {
   $('.experiences').click(function(){
     $('.projects').removeClass('tab-on').addClass('tab-off');
     $(this).removeClass('tab-off').addClass('tab-on');
+    $('.projects-container').addClass('containers-off');
+    $('.experiences-container').removeClass('containers-off');
   });
 
   $('.projects').click(function(){
     $('.experiences').removeClass('tab-on').addClass('tab-off');
     $(this).removeClass('tab-off').addClass('tab-on');
+    $('.experiences-container').addClass('containers-off');
+    $('.projects-container').removeClass('containers-off');
   });
 });

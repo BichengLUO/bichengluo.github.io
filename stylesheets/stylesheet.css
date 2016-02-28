@@ -532,6 +532,10 @@ strong.highlight {
   border-bottom: 3px solid #3a3a3a;
 }
 
+.containers-off {
+  display: none;
+}
+
 @media screen and (max-width:1025px) {
   .left_float_panel {
     left: 0;
