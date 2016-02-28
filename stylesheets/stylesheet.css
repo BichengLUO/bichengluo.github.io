@@ -39,7 +39,8 @@ li {
 
 header {
   background: url(../images/head_back.jpg) top center no-repeat fixed;
-  background-size: auto;
+  background-size: cover !important;
+  background-attachment: fixed !important;
   width: 100%;
   border-bottom: 1px dashed #63c0f5;
   padding: 20px 0;
