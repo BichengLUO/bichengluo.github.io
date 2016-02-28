@@ -23,13 +23,13 @@ $(function() {
                   "I worked as a research intern in <strong class=\"highlight\">University of Queensland</strong>.",
                   "I worked as an intern in <strong class=\"highlight\">Morgan Stanley</strong>.",
                   "I am not just these.",
-                  "See the <strong class=\"highlight\"><i class=\"fa fa-rocket\" />projects</strong> and <strong class=\"highlight\"><i class=\"fa fa-map-pin\" />experiences</strong> below to know more about <strong class=\"warning\">Bicheng<i class=\"fa fa-level-down\"></i></strong>"],
+                  "See the <strong class=\"highlight\"><i class=\"fa fa-rocket\" />projects</strong> and <strong class=\"highlight\"><i class=\"fa fa-map-pin\" />experiences</strong> below to know more about me<i class=\"fa fa-level-down\"></i>"],
         typeSpeed: 30
   });
 
   $(document).scroll(function(){
     var y = $(this).scrollTop();
-    if (y > 520) {
+    if (y > 570) {
       $('.left_float_panel').addClass('left_float_panel_show');
     } else {
       $('.left_float_panel').removeClass('left_float_panel_show');
