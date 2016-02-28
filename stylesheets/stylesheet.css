@@ -390,7 +390,7 @@ a {
   padding: 10px;
   color: #f0f0f0;
   text-shadow: #000 0px 1px 0px;
-  font-family: "Consolas", "Courier New", "Courier";
+  font-family: "Menlo", "Lucida Console", "Courier New", "Courier";
   font-size: 1.3em;
   line-height: 1.40em;
   font-weight: 500;
@@ -501,6 +501,10 @@ a {
 
 strong.highlight {
   color: #63c0f5;
+}
+
+strong.warning {
+  color: #c0f563;
 }
 
 .tabbar {

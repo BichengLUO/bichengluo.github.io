@@ -14,7 +14,7 @@ $(function() {
 
   $("#typed").typed({
         strings: ["Hello, World!",
-                  "I am <strong class=\"highlight\">Bicheng LUO</strong>.",
+                  "I am <strong class=\"warning\">Bicheng LUO</strong>.",
                   "I am a <strong class=\"highlight\">software engineer</strong>.",
                   "I am an <strong class=\"highlight\">iOS<i class=\"fa fa-apple\" />/C/C++</strong> developer.",
                   "I code in <strong class=\"highlight\">Python/Java/JavaScript</strong>, too.",
@@ -22,9 +22,8 @@ $(function() {
                   "I graduated from <strong class=\"highlight\">Nanjing University</strong>.",
                   "I worked as a research intern in <strong class=\"highlight\">University of Queensland</strong>.",
                   "I worked as an intern in <strong class=\"highlight\">Morgan Stanley</strong>.",
-                  "I founded a <strong class=\"highlight\">startup</strong> with my friends.",
                   "I am not just these.",
-                  "See the <strong class=\"highlight\"><i class=\"fa fa-rocket\" />projects</strong> and <strong class=\"highlight\"><i class=\"fa fa-map-pin\" />experiences</strong> below to know more about <strong class=\"highlight\">Bicheng</strong>.<i class=\"fa fa-level-down\"></i>"],
+                  "See the <strong class=\"highlight\"><i class=\"fa fa-rocket\" />projects</strong> and <strong class=\"strong\"><i class=\"fa fa-map-pin\" />experiences</strong> below to know more about <strong class=\"warning\">Bicheng</strong>.<i class=\"fa fa-level-down\"></i>"],
         typeSpeed: 30
   });
 
