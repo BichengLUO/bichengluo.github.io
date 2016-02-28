@@ -39,7 +39,7 @@ li {
 
 header {
   background: url(../images/head_back.jpg) top center no-repeat fixed;
-  background-size: cover !important;
+  background-size: auto;
   background-attachment: fixed !important;
   width: 100%;
   border-bottom: 1px dashed #63c0f5;
@@ -522,7 +522,6 @@ strong.highlight {
 
 .tab-on {
   border-bottom: 3px solid #63c0f5;
-  font-weight: bold;
 }
 
 .tab-off {
