@@ -302,6 +302,10 @@ a {
   background-color: #a04010;
 }
 
+.project_info span.AR {
+  background-color: #b04710;
+}
+
 .left_float_panel {
   position: fixed;
   left: 50px;
@@ -573,7 +577,7 @@ strong.warning {
 }
 
 @media screen and (max-width:481px) {
-  .demo-pic {
+  .demo-pic, .demo-div img {
     width: 100%;
     height: auto;
   }
