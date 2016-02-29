@@ -30,9 +30,9 @@ $(function() {
   $(document).scroll(function(){
     var y = $(this).scrollTop();
     if (y > 570) {
-      $('.left_float_panel').addClass('left_float_panel_show');
+      $('.left-float-panel').addClass('left-float-panel-show');
     } else {
-      $('.left_float_panel').removeClass('left_float_panel_show');
+      $('.left-float-panel').removeClass('left-float-panel-show');
     }
   });
 
