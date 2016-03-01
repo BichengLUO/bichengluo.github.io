@@ -306,6 +306,10 @@ a {
   background-color: #b04710;
 }
 
+.project_info span.Unity3D {
+  background-color: #0b0471;
+}
+
 .left-float-panel {
   position: fixed;
   left: 0;
