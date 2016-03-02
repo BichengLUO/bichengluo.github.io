@@ -56,6 +56,8 @@ $(function() {
     $(this).removeClass('tab-off').addClass('tab-on');
     $('.projects-container').addClass('containers-off');
     $('.experiences-container').removeClass('containers-off');
+    $('.projects-navi').addClass('navis-off');
+    $('.experiences-navi').removeClass('navis-off');
   });
 
   $('.projects').click(function(){
@@ -63,5 +65,7 @@ $(function() {
     $(this).removeClass('tab-off').addClass('tab-on');
     $('.experiences-container').addClass('containers-off');
     $('.projects-container').removeClass('containers-off');
+    $('.experiences-navi').addClass('navis-off');
+    $('.projects-navi').removeClass('navis-off');
   });
 });

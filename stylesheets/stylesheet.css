@@ -547,6 +547,10 @@ strong.warning {
   display: none;
 }
 
+.navis-off {
+  display: none;
+}
+
 @media screen and (max-width:900px) {
   .text-editor-wrap {
     max-height: 150px;
