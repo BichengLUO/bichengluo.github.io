@@ -551,10 +551,6 @@ strong.warning {
   display: none;
 }
 
-.mobile-new-line {
-  display: none;
-}
-
 @media screen and (max-width:900px) {
   .text-editor-wrap {
     max-height: 150px;
@@ -599,8 +595,8 @@ strong.warning {
     width: 90px;
     height: 90px;
   }
-  .mobile-new-line {
-    display: inline;
+  .too-long {
+    font-size: 90%;
   }
 }
 

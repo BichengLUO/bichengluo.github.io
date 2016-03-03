@@ -23,7 +23,7 @@ $(function() {
                   "I worked as a research intern in <strong class=\"highlight\">University of Queensland</strong>.",
                   "I worked as an intern in <strong class=\"highlight\">Morgan Stanley</strong>.",
                   "I am not just these.",
-                  "See the <strong class=\"highlight\"><i class=\"fa fa-rocket\" />projects</strong> and <strong class=\"highlight\"><i class=\"fa fa-map-pin\" />experiences</strong> below to know more about me<i class=\"fa fa-level-down\"></i>"],
+                  "See the <strong class=\"highlight\">projects</strong> and <strong class=\"highlight\">experiences</strong> below to know more about me<i class=\"fa fa-level-down\"></i>"],
         typeSpeed: 30
   });
 
