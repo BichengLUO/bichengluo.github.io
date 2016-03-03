@@ -551,6 +551,10 @@ strong.warning {
   display: none;
 }
 
+.experiences-container {
+  font-size: 90%;
+}
+
 @media screen and (max-width:900px) {
   .text-editor-wrap {
     max-height: 150px;
