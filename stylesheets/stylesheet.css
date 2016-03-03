@@ -551,8 +551,8 @@ strong.warning {
   display: none;
 }
 
-.experiences-container {
-  font-size: 90%;
+.mobile-new-line {
+  display: none;
 }
 
 @media screen and (max-width:900px) {
@@ -598,6 +598,9 @@ strong.warning {
   .project_icon {
     width: 90px;
     height: 90px;
+  }
+  .mobile-new-line {
+    display: inline;
   }
 }
 
