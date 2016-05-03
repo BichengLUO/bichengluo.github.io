@@ -262,7 +262,7 @@ a {
   background-color: #95c823;
 }
 
-.project_info span.Objective-C {
+.project_info span.ObjC {
   background-color: #c89523;
 }
 
@@ -312,6 +312,14 @@ a {
 
 .project_info span.Unity3D {
   background-color: #0b0471;
+}
+
+.project_info span.OpenCV {
+  background-color: #a071a0;
+}
+
+.project_info span.Arduino {
+  background-color: #04a10b;
 }
 
 .left-float-panel {
