@@ -238,6 +238,10 @@ a {
   height: 100px;
 }
 
+.project_agenda {
+  width: 100%;
+}
+
 .project_agenda, .project_img, .project_info {
   display: inline-block;
   vertical-align: middle;
@@ -551,6 +555,24 @@ strong.warning {
   display: none;
 }
 
+.location {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 6px 5px 6px 5px;
+  float: right;
+}
+
+.location span {
+  font-size: 90%;
+}
+
+.location span img {
+  width: 30px;
+  height: auto;
+  vertical-align: middle;
+}
+
 @media screen and (max-width:900px) {
   .text-editor-wrap {
     max-height: 150px;
@@ -577,6 +599,12 @@ strong.warning {
   .resume-menu {
     font-size: 18px;
     width: 130px;
+  }
+}
+
+@media screen and (max-width:516px) {
+  .location {
+    display: none;
   }
 }
 
