@@ -581,6 +581,10 @@ strong.warning {
   vertical-align: middle;
 }
 
+.tags-return {
+  display: none;
+}
+
 @media screen and (max-width:900px) {
   .text-editor-wrap {
     max-height: 150px;
@@ -607,6 +611,12 @@ strong.warning {
   .resume-menu {
     font-size: 18px;
     width: 130px;
+  }
+}
+
+@media screen and (max-width:558px) {
+  .tags-return {
+    display: inline;
   }
 }
 
