@@ -585,6 +585,19 @@ strong.warning {
   display: none;
 }
 
+.exp-projects {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 6px 5px 6px 10px;
+  margin-bottom: 10px;
+}
+
+.exp-projects img {
+  width: 40px;
+  height: auto;
+  vertical-align: middle;
+}
+
 @media screen and (max-width:900px) {
   .text-editor-wrap {
     max-height: 150px;
