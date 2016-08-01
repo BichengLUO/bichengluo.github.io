@@ -314,6 +314,14 @@ a {
   background-color: #0b0471;
 }
 
+.project_info span.Csharp {
+  background-color: #0b4017;
+}
+
+.project_info span.UWP {
+  background-color: #b04071;
+}
+
 .project_info span.OpenCV {
   background-color: #a071a0;
 }
