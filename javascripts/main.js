@@ -17,11 +17,10 @@ $(function() {
                   "I am <strong class=\"warning\">Bicheng LUO</strong>.",
                   "I am a <strong class=\"highlight\">software engineer</strong>.",
                   "I am an <strong class=\"highlight\">iOS<i class=\"fa fa-apple\" />/C/C++</strong> developer.",
-                  "I code in <strong class=\"highlight\">Python/Java/JavaScript</strong>, too.",
+                  "I am into <strong class=\"highlight\">Unity/OpenCV/OpenGL/Direct3D/Arduino/VR</strong>, too.",
                   "I am studying in <strong class=\"highlight\">Tsinghua University</strong>.",
-                  "I graduated from <strong class=\"highlight\">Nanjing University</strong>.",
                   "I worked as a research intern in <strong class=\"highlight\">University of Queensland</strong>.",
-                  "I worked as an intern in <strong class=\"highlight\">Morgan Stanley</strong>.",
+                  "I worked as an intern in <strong class=\"highlight\">Microsoft</strong>, <strong class=\"highlight\">Morgan Stanley</strong>.",
                   "I am not just these.",
                   "See the <strong class=\"highlight\">projects</strong> and <strong class=\"highlight\">experiences</strong> below to know more about me<i class=\"fa fa-level-down\"></i>"],
         typeSpeed: 30
