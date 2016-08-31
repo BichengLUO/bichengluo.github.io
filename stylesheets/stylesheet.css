@@ -322,6 +322,10 @@ a {
   background-color: #b04071;
 }
 
+.project_info span.Hololens {
+  background-color: #f00071;
+}
+
 .project_info span.OpenCV {
   background-color: #a071a0;
 }
@@ -604,6 +608,23 @@ strong.warning {
   width: 40px;
   height: auto;
   vertical-align: middle;
+}
+
+.extra {
+  background-color: rgba(50, 50, 50, 0.4);
+  border-radius: 10px;
+  box-shadow: inset 0 0 20px #000000;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.extra-title {
+  background-color: rgba(200, 200, 200, 0.05);
+  padding: 10px;
+}
+
+.extra-content {
+    padding: 20px;
 }
 
 @media screen and (max-width:900px) {
