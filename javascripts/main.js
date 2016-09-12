@@ -67,4 +67,8 @@ $(function() {
     $('.experiences-navi').addClass('navis-off');
     $('.projects-navi').removeClass('navis-off');
   });
+
+  $('.extra-title').click(function(){
+    $(this).siblings('.extra-content').slideToggle();
+  })
 });

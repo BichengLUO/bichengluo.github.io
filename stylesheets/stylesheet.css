@@ -623,6 +623,10 @@ strong.warning {
   padding: 10px;
 }
 
+.extra-title:hover {
+  background-color: rgba(200, 200, 200, 0.2);
+}
+
 .extra-content {
   padding: 20px;
 }
@@ -651,6 +655,9 @@ strong.warning {
 
 @media screen and (max-width:780px) {
   .left-float-panel {
+    display: none;
+  }
+  .extra-img {
     display: none;
   }
 }
