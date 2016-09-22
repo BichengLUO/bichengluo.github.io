@@ -646,6 +646,21 @@ strong.warning {
   height: auto;
 }
 
+.vote {
+  display: inline-block;
+  position: absolute;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  transform: translate(-75px, 20px);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.vote:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
 .h_iframe        {position:relative;}
 .h_iframe .ratio {display:block;width:100%;height:auto;}
 .h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
