@@ -70,5 +70,12 @@ $(function() {
 
   $('.extra-title').click(function(){
     $(this).siblings('.extra-content').slideToggle();
-  })
+  });
+
+  $('.vote').click(function(){
+    var vote_name = $(this).parent().attr('id');
+    vote(vote_name);
+    var vote_count = $(this).find('.vote_count');
+    vote_count.text(parseInt(vote_count.text()) + 1);
+  });
 });
