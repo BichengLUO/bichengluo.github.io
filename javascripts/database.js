@@ -11,7 +11,12 @@ var vote = function(name) {
 var get_vote = function(name, callback) {
   var voteRef = database.ref('projects/' + name);
   voteRef.once("value", function(snapshot){
-    var voteCount = snapshot.val().vote;
-    callback(voteCount);
+    if (!snapshot)
+      console.log(name + " is null");
+    else
+    {
+      var voteCount = snapshot.val().vote;
+      callback(voteCount);
+    }
   });
 }
