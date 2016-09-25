@@ -11,7 +11,7 @@ var vote = function(name) {
 var get_vote = function(name, callback) {
   var voteRef = database.ref('projects/' + name);
   voteRef.once("value", function(snapshot){
-    if (!snapshot)
+    if (!snapshot.val())
       console.log(name + " is null");
     else
     {
