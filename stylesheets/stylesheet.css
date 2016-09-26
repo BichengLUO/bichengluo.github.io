@@ -625,6 +625,7 @@ strong.warning {
 
 .extra-title:hover {
   background-color: rgba(200, 200, 200, 0.2);
+  cursor: pointer;
 }
 
 .extra-content {
@@ -658,8 +659,9 @@ strong.warning {
 }
 
 .vote:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(99, 192, 245, 0.6);
   cursor: pointer;
+  box-shadow: 0 0 10px black;
 }
 
 .h_iframe        {position:relative;}
