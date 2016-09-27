@@ -725,6 +725,7 @@ strong.warning {
     transform: translate(0, 0);
     float:right;
     font-size: 80%;
+    margin: 30px 10px 0 10px;
   }
 }
 
