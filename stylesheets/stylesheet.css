@@ -253,7 +253,7 @@ a {
 }
 
 .project_info span {
-  border-radius: 5px;
+  border-radius: 2px;
   color: #ffffff;
   padding: 3px;
 }
@@ -367,7 +367,7 @@ a {
 }
 
 .demo-pic {
-  border-radius: 8px;
+  border-radius: 5px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5), 0 4px 10px 0 rgba(0, 0, 0, 0.49);
 }
 
@@ -493,7 +493,7 @@ a {
 
 .resume-menu {
   background-color: rgba(0, 0, 0, 0.8);
-  border-radius: 5px;
+  border-radius: 2px;
   display: none;
   position: absolute;
   width: 90px;
@@ -578,7 +578,7 @@ strong.warning {
 .location {
   display: inline-block;
   background-color: rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
+  border-radius: 2px;
   padding: 6px 5px 6px 5px;
   float: right;
 }
@@ -599,7 +599,7 @@ strong.warning {
 
 .exp-projects {
   background-color: rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
+  border-radius: 2px;
   padding: 6px 5px 6px 10px;
   margin-bottom: 10px;
 }
@@ -612,8 +612,7 @@ strong.warning {
 
 .extra {
   background-color: rgba(50, 50, 50, 0.4);
-  border-radius: 10px;
-  box-shadow: inset 0 0 10px #000000;
+  border-radius: 2px;
   margin-bottom: 10px;
   overflow: hidden;
 }
@@ -655,7 +654,7 @@ strong.warning {
   text-align: center;
   transform: translate(-75px, 20px);
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 .vote:hover {
