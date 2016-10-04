@@ -26,7 +26,7 @@ body {
 
 .head-container {
   width: 90%;
-  max-width: 600px;
+  max-width: 640px;
   margin: 0 auto;
 }
 
@@ -40,7 +40,6 @@ body {
 
 section {
   display: block;
-  margin: 0 0 20px 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -61,6 +60,8 @@ header {
   background-color: rgb(59, 148, 217);
   width: 100%;
   border-bottom: 1px dashed #63c0f5;
+  position:fixed;
+  z-index: 200;
 }
 
 header h1 {
@@ -203,7 +204,6 @@ hr {
 
 .btn:hover {
   background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 2px;
 }
 
 .btn .icon {
@@ -348,7 +348,7 @@ a {
 .left-float-panel {
   position: fixed;
   left: 0;
-  top: 30px;
+  top: 40px;
   width: 50px;
   background-color: rgba(100, 100, 100, 0.1);
 
@@ -552,7 +552,7 @@ strong.warning {
 
 .tabbar {
   text-align: center;
-  padding: 20px;
+  padding: 50px 20px 10px 20px;
 }
 
 .tab {
