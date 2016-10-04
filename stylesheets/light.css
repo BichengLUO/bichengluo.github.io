@@ -21,6 +21,10 @@ body {
   border-color: rgb(220, 220, 220);
 }
 
+.container:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
 .head-container {
   width: 90%;
   max-width: 600px;
@@ -241,8 +245,8 @@ a {
 }
 
 .project_icon {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
 }
 
 .project_agenda {
@@ -379,10 +383,6 @@ a {
   border-style: solid;
   border-width: 1px;
   border-color: rgb(220, 220, 220);
-}
-
-.container {
-  font-size: 100%;
 }
 
 /* Grow */
@@ -531,7 +531,7 @@ a {
 
 .gif-type {
   position: absolute;
-  background-color: rgb(99, 192, 245);
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 2px 5px 2px 5px;
   display: inline-block;
   left: 5px;
@@ -588,6 +588,7 @@ strong.warning {
   display: inline-block;
   padding: 6px 5px 6px 5px;
   float: right;
+  color: rgb(180, 180, 180);
 }
 
 .location span {
@@ -608,6 +609,7 @@ strong.warning {
   padding: 5px;
   border-top: 1px solid rgb(220, 220, 220);
   font-size: 90%;
+  color: rgb(180, 180, 180);
 }
 
 .exp-projects img {
@@ -720,6 +722,7 @@ strong.warning {
 @media screen and (max-width:558px) {
   .tags-return {
     display: inline;
+    border-color: rgb(255, 255, 255);
   }
   .vote {
     position: static;
