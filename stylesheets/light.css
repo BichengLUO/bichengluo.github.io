@@ -619,8 +619,7 @@ strong.warning {
 }
 
 .extra {
-  background-color: rgb(99, 192, 245);
-  color: white;
+  background-color: rgb(255, 255, 255);
   max-width: 640px;
   margin: 0 auto;
 }
@@ -631,8 +630,9 @@ strong.warning {
 }
 
 .extra-title {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgb(99, 192, 245);
   padding: 10px;
+  color: white;
 }
 
 .extra-title:hover {
@@ -642,6 +642,7 @@ strong.warning {
 
 .extra-content {
   padding: 20px;
+  display: none;
 }
 
 .extra-img {
