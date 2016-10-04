@@ -659,22 +659,25 @@ strong.warning {
   height: auto;
 }
 
+.vote-container {
+  text-align: right;
+}
+
 .vote {
   display: inline-block;
-  position: absolute;
-  width: 40px;
   text-align: center;
-  transform: translate(-85px, 20px);
   padding: 5px;
-  color: white;
-  background-color: rgba(59, 148, 217, 0.8);
-  border-radius: 2px;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+  color: rgb(180, 180, 180);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  border-color: rgba(180, 180, 180, 0);
+  width: 80px;
 }
 
 .vote:hover {
   cursor: pointer;
-  background-color: rgb(59, 148, 217);
+  border-color: rgb(180, 180, 180);
 }
 
 .container p, .container ul, .extra p{
@@ -723,16 +726,6 @@ strong.warning {
   .tags-return {
     display: inline;
     border-color: rgb(255, 255, 255);
-  }
-  .vote {
-    position: static;
-    transform: translate(0, 0);
-    float:right;
-    font-size: 80%;
-    margin: 30px 0 0 10px;
-  }
-  .container p, .extra p {
-    text-align: justify;
   }
 }
 
