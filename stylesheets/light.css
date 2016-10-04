@@ -9,15 +9,54 @@ body {
 
 /* General & 'Reset' Stuff */
 
-.container {
-  width: 90%;
-  max-width: 600px;
+.center-col {
+  max-width: 900px;
   margin: 0 auto;
+}
+
+.left-col {
+  display: inline-block;
+  width: 70%;
+}
+
+.right-col {
+  display: inline-block;
+  width: 28%;
+  vertical-align: top;
+}
+
+.container {
   background-color: rgb(255, 255, 255);
   padding: 20px;
   border-style: solid;
   border-width: 1px;
   border-color: rgb(220, 220, 220);
+}
+
+.profile {
+  margin: 40px 0 0 0;
+  background-color: rgb(255, 255, 255);
+  border: solid 1px rgb(220, 220, 220);
+}
+
+.profile .portrait img {
+  width: 90%;
+  margin: 5%;
+  border-radius: 5px;
+  border: solid 1px rgb(220, 220, 220);
+}
+
+.profile .info {
+  margin: 0 5% 5% 5%;
+  font-size: 90%;
+  color: rgb(120, 120, 120);
+  padding-bottom: 10px;
+  border-bottom: solid 1px rgb(220, 220, 220);
+}
+
+.profile .info strong {
+  font-size: 150%;
+  color: black;
 }
 
 .container:hover {
@@ -31,9 +70,6 @@ body {
 }
 
 .tabbar-container {
-  width: 90%;
-  max-width: 600px;
-  margin: 0 auto;
   background-color: rgb(255, 255, 255);
 }
 
@@ -57,9 +93,8 @@ li {
 */
 
 header {
-  background-color: rgb(59, 148, 217);
+  background-color: rgb(0, 0, 0);
   width: 100%;
-  border-bottom: 1px dashed #63c0f5;
   position:fixed;
   z-index: 200;
 }
@@ -267,6 +302,7 @@ a {
   padding: 3px;
   border-style: solid;
   border-width: 1px;
+  font-size: 80%;
 }
 
 .project_info span.iOS {
@@ -605,22 +641,21 @@ strong.warning {
 }
 
 .exp-projects {
+  display: inline-block;
   padding: 5px;
-  border-top: 1px solid rgb(220, 220, 220);
   font-size: 90%;
   color: rgb(180, 180, 180);
+  float: left;
 }
 
 .exp-projects img {
-  width: 40px;
+  width: 30px;
   height: auto;
   vertical-align: middle;
 }
 
 .extra {
   background-color: rgb(255, 255, 255);
-  max-width: 640px;
-  margin: 0 auto;
 }
 
 .extra-content .project_agenda .project_img .project_icon {
@@ -635,7 +670,7 @@ strong.warning {
 }
 
 .extra-title:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.6);
   cursor: pointer;
 }
 
@@ -707,6 +742,12 @@ strong.warning {
 }
 
 @media screen and (max-width:668px) {
+  .right-col {
+    display: none;
+  }
+  .left-col {
+    width: 100%;
+  }
   section {
     text-align: center;
   }
