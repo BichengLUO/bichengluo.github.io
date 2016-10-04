@@ -1,11 +1,10 @@
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
 body {
   margin: 0;
   padding: 0;
   background-color: rgb(240, 240, 240);
   font: 16px;
   line-height: 1.5;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 /* General & 'Reset' Stuff */
@@ -59,7 +58,7 @@ li {
 */
 
 header {
-  background-color: rgb(99, 192, 245);
+  background-color: rgb(59, 148, 217);
   width: 100%;
   border-bottom: 1px dashed #63c0f5;
 }
@@ -68,7 +67,7 @@ header h1 {
     margin: 10px 0 20px;
     font-size: 2.2em;
     font-weight: bold;
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
 }
 
@@ -91,7 +90,7 @@ section img {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #b5e853;
   letter-spacing: -0.03em;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
@@ -139,7 +138,7 @@ ul li {
 
 ul li:before {
   content: ">>";
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 13px;
   color: #b5e853;
   margin-left: -37px;
@@ -196,7 +195,7 @@ hr {
   display: inline-block;
   padding: 8px 18px;
   color: rgba(255, 255, 255, 0.8);
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: bold;
   font-size: 13px;
   text-decoration: none;
@@ -630,7 +629,7 @@ strong.warning {
 }
 
 .extra-title {
-  background-color: rgb(99, 192, 245);
+  background-color: rgb(59, 148, 217);
   padding: 10px;
   color: white;
 }
@@ -668,14 +667,14 @@ strong.warning {
   transform: translate(-85px, 20px);
   padding: 5px;
   color: white;
-  background-color: rgba(99, 192, 245, 0.8);
+  background-color: rgba(59, 148, 217, 0.8);
   border-radius: 2px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
 }
 
 .vote:hover {
   cursor: pointer;
-  background-color: rgb(99, 192, 245);
+  background-color: rgb(59, 148, 217);
 }
 
 .container p, .container ul, .extra p{
