@@ -13,11 +13,12 @@ body {
 .container {
   width: 90%;
   max-width: 600px;
-  margin: 20px auto;
+  margin: 0 auto;
   background-color: rgb(255, 255, 255);
   padding: 20px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(220, 220, 220);
 }
 
 .head-container {
@@ -31,8 +32,6 @@ body {
   max-width: 600px;
   margin: 0 auto;
   background-color: rgb(255, 255, 255);
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 2px;
 }
 
 
@@ -261,6 +260,10 @@ a {
 }
 
 .project_info span {
+  border-radius: 2px;
+  padding: 3px;
+  border-style: solid;
+  border-width: 1px;
 }
 
 .project_info span.iOS {
@@ -372,6 +375,10 @@ a {
 }
 
 .demo-pic {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(220, 220, 220);
 }
 
 .container {
@@ -599,6 +606,8 @@ strong.warning {
 
 .exp-projects {
   padding: 5px;
+  border-top: 1px solid rgb(220, 220, 220);
+  font-size: 90%;
 }
 
 .exp-projects img {
@@ -610,9 +619,8 @@ strong.warning {
 .extra {
   background-color: rgb(99, 192, 245);
   color: white;
-  margin-bottom: 10px;
-  border-radius: 2px;
-  overflow: hidden;
+  max-width: 640px;
+  margin: 0 auto;
 }
 
 .extra-content .project_agenda .project_img .project_icon {
@@ -667,7 +675,7 @@ strong.warning {
   background-color: rgb(99, 192, 245);
 }
 
-.container p, .container ul{
+.container p, .container ul, .extra p{
   font-size: 90%;
 }
 
@@ -720,7 +728,7 @@ strong.warning {
     font-size: 80%;
     margin: 30px 0 0 10px;
   }
-  .container p {
+  .container p, .extra p {
     text-align: justify;
   }
 }
