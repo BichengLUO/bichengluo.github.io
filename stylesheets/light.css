@@ -7,6 +7,10 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+svg {
+  vertical-align: middle;
+}
+
 /* General & 'Reset' Stuff */
 
 .center-col {
@@ -29,12 +33,12 @@ body {
   background-color: rgb(255, 255, 255);
   padding: 20px;
   border-style: solid;
-  border-width: 1px;
+  border-width: 1px 1px 0 1px;
   border-color: rgb(220, 220, 220);
 }
 
 .profile {
-  margin: 40px 0 0 0;
+  margin: 50px 0 0 0;
   background-color: rgb(255, 255, 255);
   border: solid 1px rgb(220, 220, 220);
 }
@@ -71,14 +75,12 @@ body {
 
 .head-container {
   width: 90%;
-  max-width: 640px;
   margin: 0 auto;
 }
 
 .tabbar-container {
   background-color: rgb(255, 255, 255);
 }
-
 
 section {
   display: block;
@@ -230,17 +232,35 @@ hr {
   color: #b5e853;
 }
 
+.page-title {
+  display: inline-block;
+  color: white;
+  height: 50px;
+  font-size: 150%;
+}
+
+.name {
+  vertical-align: middle;
+}
+
 /* Buttons
 */
 
 .btn {
   display: inline-block;
   padding: 8px 18px;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgb(180, 180, 180);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-weight: bold;
   font-size: 13px;
-  text-decoration: none;
+  width: 68px;
+  border-radius: 5px;
+}
+
+.btn-group {
+  margin: 0 5% 5% 5%;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: solid 1px rgb(220, 220, 220);
 }
 
 .btn:hover {
@@ -261,7 +281,6 @@ hr {
 
 a {
   color: #63c0f5;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
   text-decoration: none;
 }
 
@@ -390,7 +409,7 @@ a {
 .left-float-panel {
   position: fixed;
   left: 0;
-  top: 40px;
+  top: 50px;
   width: 50px;
   background-color: rgba(100, 100, 100, 0.1);
 
@@ -594,7 +613,7 @@ strong.warning {
 
 .tabbar {
   text-align: center;
-  padding: 50px 20px 10px 20px;
+  padding: 60px 20px 10px 20px;
 }
 
 .tab {

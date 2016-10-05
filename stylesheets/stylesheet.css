@@ -9,6 +9,10 @@ body {
   font-family: "Ubuntu", sans-serif;
 }
 
+svg {
+  vertical-align: middle;
+}
+
 /* General & 'Reset' Stuff */
 
 .container {
