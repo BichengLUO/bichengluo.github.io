@@ -19,6 +19,7 @@ svg {
 }
 
 .left-col {
+  padding-top: 40px;
   display: inline-block;
   width: 70%;
 }
@@ -79,7 +80,7 @@ svg {
 }
 
 .tabbar-container {
-  background-color: rgb(255, 255, 255);
+  vertical-align: middle;
 }
 
 section {
@@ -248,12 +249,12 @@ hr {
 
 .btn {
   display: inline-block;
-  padding: 8px 18px;
   color: rgb(180, 180, 180);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 12px;
-  width: 68px;
+  width: 80px;
   border-radius: 5px;
+  padding: 5px;
+  margin: 3px;
+  font-size: 90%;
 }
 
 .btn-group {
@@ -612,8 +613,10 @@ strong.warning {
 }
 
 .tabbar {
+  display: inline-block;
   text-align: center;
-  padding: 60px 20px 10px 20px;
+  width: 300px;
+  color: white;
 }
 
 .tab {
@@ -629,11 +632,11 @@ strong.warning {
 }
 
 .tab-off {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.4);
 }
 
 .tab-off:hover {
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .containers-off {
@@ -772,9 +775,11 @@ strong.warning {
   }
   .left-col {
     width: 100%;
+    margin-top: 50px;
   }
   section {
     text-align: center;
+    padding-bottom: 10px;
   }
   .btn .icon {
     margin: 0
