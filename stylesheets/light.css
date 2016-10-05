@@ -75,7 +75,7 @@ svg {
 }
 
 .head-container {
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -238,6 +238,12 @@ hr {
   color: white;
   height: 50px;
   font-size: 150%;
+}
+
+.page-title img{
+  height: 50%;
+  vertical-align: middle;
+  margin-top: 5px;
 }
 
 .name {
@@ -629,14 +635,34 @@ strong.warning {
 }
 
 .tab-on {
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.tab-on span svg {
+  fill: white;
+  -webkit-transition: fill 0.3s;
+  transition: fill 0.3s;
 }
 
 .tab-off {
   color: rgba(255, 255, 255, 0.4);
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.tab-off span svg {
+  fill: rgba(255, 255, 255, 0.4);
+  -webkit-transition: fill 0.3s;
+  transition: fill 0.3s;
 }
 
 .tab-off:hover {
   color: rgba(255, 255, 255, 0.8);
+}
+
+.tab-off:hover span svg {
+  fill: rgba(255, 255, 255, 0.8);
 }
 
 .containers-off {
@@ -695,6 +721,10 @@ strong.warning {
   background-color: rgb(59, 148, 217);
   padding: 10px;
   color: white;
+}
+
+.extra-title svg {
+  fill: white;
 }
 
 .extra-title:hover {
