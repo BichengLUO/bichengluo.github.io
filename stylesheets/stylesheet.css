@@ -556,15 +556,39 @@ strong.warning {
 
 .tab-on {
   border-bottom: 3px solid #63c0f5;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  -webkit-transition: border-bottom-color 0.3s;
+  transition: border-bottom-color 0.3s;
+}
+
+.tab-on span svg {
+  fill: white;
+  -webkit-transition: fill 0.3s;
+  transition: fill 0.3s;
 }
 
 .tab-off {
   color: rgba(255, 255, 255, 0.4);
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  -webkit-transition: border-bottom-width 0.3s;
+  transition: border-bottom-width 0.3s;
+}
+
+.tab-off span svg {
+  fill: rgba(255, 255, 255, 0.4);
+  -webkit-transition: fill 0.3s;
+  transition: fill 0.3s;
 }
 
 .tab-off:hover {
   color: rgba(255, 255, 255, 0.8);
   border-bottom: 3px solid #3a3a3a;
+}
+
+.tab-off:hover span svg {
+  fill: rgba(255, 255, 255, 0.8);
 }
 
 .containers-off {

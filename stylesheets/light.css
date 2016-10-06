@@ -768,6 +768,10 @@ strong.warning {
   width: 80px;
 }
 
+.vote svg{
+  vertical-align: baseline;
+}
+
 .vote:hover {
   cursor: pointer;
   border-color: rgb(180, 180, 180);
