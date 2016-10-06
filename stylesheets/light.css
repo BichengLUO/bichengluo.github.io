@@ -36,6 +36,8 @@ svg {
   border-style: solid;
   border-width: 1px 1px 0 1px;
   border-color: rgb(220, 220, 220);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
 }
 
 .profile {
@@ -421,11 +423,11 @@ a {
   background-color: rgba(100, 100, 100, 0.1);
 
   transform: translateX(-70px);
-  transition-duration: 0.3s;
+  transition-duration: 0.15s;
   transition-property: transform;
 
   -webkit-transform: translateX(-70px);
-  -webkit-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.15s;
   -webkit-transition-property: transform;
 }
 
@@ -462,8 +464,8 @@ a {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.15s;
+  transition-duration: 0.15s;
   -webkit-transition-property: transform;
   transition-property: transform;
 }
@@ -554,8 +556,8 @@ a {
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.15s;
+  transition-duration: 0.15s;
   -webkit-transition-property: color, background-color;
   transition-property: color, background-color;
 }
@@ -635,26 +637,26 @@ strong.warning {
 }
 
 .tab-on {
-  -webkit-transition: color 0.3s;
-  transition: color 0.3s;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
 }
 
 .tab-on span svg {
   fill: white;
-  -webkit-transition: fill 0.3s;
-  transition: fill 0.3s;
+  -webkit-transition: fill 0.15s ease-in-out;
+  transition: fill 0.15s ease-in-out;
 }
 
 .tab-off {
   color: rgba(255, 255, 255, 0.4);
-  -webkit-transition: color 0.3s;
-  transition: color 0.3s;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
 }
 
 .tab-off span svg {
   fill: rgba(255, 255, 255, 0.4);
-  -webkit-transition: fill 0.3s;
-  transition: fill 0.3s;
+  -webkit-transition: fill 0.15s ease-in-out;
+  transition: fill 0.15s ease-in-out;
 }
 
 .tab-off:hover {
@@ -721,6 +723,8 @@ strong.warning {
   background-color: rgb(59, 148, 217);
   padding: 10px;
   color: white;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
 }
 
 .extra-title svg {
@@ -766,6 +770,8 @@ strong.warning {
   border-radius: 3px;
   border-color: rgba(180, 180, 180, 0);
   width: 80px;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
 }
 
 .vote svg{
