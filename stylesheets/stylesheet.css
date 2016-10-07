@@ -663,6 +663,12 @@ strong.warning {
   border-width: 10px 10px 50px 10px;
   box-shadow: 0 0 10px black;
   transform: rotate(10deg) translate(500px, -500px);
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.extra-img:hover {
+  transform: rotate(10deg) translate(500px, -500px) scale(1.5);
 }
 
 .extra-img img {
