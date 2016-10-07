@@ -73,7 +73,7 @@ $(function() {
   });
 
   $('.vote').each(function(){
-    var vote_name = $(this).parent().attr('id');
+    var vote_name = $(this).parent().parent().attr('id');
     var vote_count = $(this).find('.vote_count');
     get_vote(vote_name, function(voteCount){
       vote_count.text(voteCount);
@@ -82,7 +82,7 @@ $(function() {
 
 
   $('.vote').click(function(){
-    var vote_name = $(this).parent().attr('id');
+    var vote_name = $(this).parent().parent().attr('id');
     vote(vote_name);
     var vote_count = $(this).find('.vote_count');
     vote_count.text(parseInt(vote_count.text()) + 1);
