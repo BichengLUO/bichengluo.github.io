@@ -24,7 +24,7 @@ svg {
     border-radius: 6px;
     padding: 5px 10px;
     position: absolute;
-    z-index: 1;
+    z-index: 500;
     bottom: 150%;
     left: 75%;
     margin-left: -50px;
@@ -64,7 +64,7 @@ svg {
     border-radius: 6px;
     padding: 5px 10px;
     position: absolute;
-    z-index: 1;
+    z-index: 500;
     top: 20%;
     left: 130%;
     font-size: 80%;
@@ -336,10 +336,8 @@ hr {
 .btn {
   display: inline-block;
   color: rgb(180, 180, 180);
-  width: 80px;
   border-radius: 5px;
   padding: 5px;
-  margin: 3px;
   font-size: 90%;
 }
 
@@ -351,7 +349,6 @@ hr {
 
 .btn-group {
   margin: 0 5% 5% 5%;
-  text-align: center;
   padding-bottom: 10px;
   border-bottom: solid 1px rgb(220, 220, 220);
 }
@@ -544,8 +541,6 @@ a {
 .hvr-grow {
   display: inline-block;
   vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -635,8 +630,6 @@ a {
 .hvr-fade {
   display: inline-block;
   vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
