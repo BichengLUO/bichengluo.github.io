@@ -11,6 +11,12 @@ body {
 
 /* General & 'Reset' Stuff */
 
+.title-container {
+  width: 90%;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
 .container {
   width: 90%;
   max-width: 650px;
@@ -21,6 +27,15 @@ section {
   display: block;
   margin: 0 0 30px 0;
   text-align: center;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 h1, h2, h3, h4, h5, h6 {
