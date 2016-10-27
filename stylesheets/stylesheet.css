@@ -53,12 +53,12 @@ li {
 */
 
 header {
-  background: url(../images/head_back.jpg) top center no-repeat fixed;
+  background: url(../images/head_back.png) bottom center no-repeat fixed;
   background-size: auto;
   width: 100%;
-  border-bottom: 1px dashed #63c0f5;
   padding: 20px 0;
   margin: 0 0 40px 0;
+  box-shadow: 0px 2px 40px 0px rgba(0,0,0,0.08);
 }
 
 header h1 {
@@ -183,7 +183,7 @@ td {
 hr {
   height: 0;
   border: 0;
-  border-bottom: 1px dashed #b5e853;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);;
   color: #b5e853;
 }
 
@@ -192,13 +192,11 @@ hr {
 
 .btn {
   display: inline-block;
-  background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.9), rgba(35, 35, 35, 0.9) 50%, rgba(10, 10, 10, 0.9) 50%, rgba(0, 0, 0, 0.9));
   padding: 8px 18px;
-  border-radius: 50px;
-  border: 1px solid rgba(0, 0, 0, 0.7);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.7);
-  border-top: 1px solid rgba(0, 0, 0, 1);
-  color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.3);
   font-family: "Ubuntu", sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -208,7 +206,8 @@ hr {
 }
 
 .btn:hover {
-  background: -webkit-linear-gradient(top, rgba(60, 60, 60, 0.9), rgba(55, 55, 55, 0.9) 50%, rgba(30, 30, 30, 0.9) 50%, rgba(0, 0, 0, 0.9));
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .btn .icon {
@@ -244,7 +243,7 @@ a {
 }
 
 .separator {
-  border-top: 1px dashed #5f5f5f;
+  border-top: 1px solid #2f2f2f;
 }
 
 .project_icon {
@@ -505,8 +504,9 @@ a {
 }
 
 .resume-menu {
-  background-color: rgba(0, 0, 0, 0.8);
-  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
   display: none;
   position: absolute;
   width: 90px;
