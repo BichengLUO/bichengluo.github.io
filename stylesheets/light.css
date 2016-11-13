@@ -322,7 +322,11 @@ hr {
   font-size: 150%;
 }
 
-.page-title img{
+.page-title a {
+  color: inherit;
+}
+
+.page-title a img{
   height: 50%;
   vertical-align: middle;
   margin-top: 5px;
