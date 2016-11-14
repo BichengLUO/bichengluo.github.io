@@ -23,6 +23,47 @@ body {
   margin: 0 auto;
 }
 
+.head-back {
+  display: inline-block;
+  width: 100%;
+  background-color: rgba(30, 30, 30, 0.98);
+  position:fixed;
+  z-index: 200;
+  box-shadow: 0px 2px 40px 0px rgba(0,0,0,0.8);
+  opacity: 0;
+  -webkit-transition-duration: 0.15s;
+  -webkit-transition-property: opacity;
+}
+
+.head-back-show {
+  opacity: 1;
+}
+
+.head-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.page-title {
+  display: inline-block;
+  height: 50px;
+  font-size: 150%;
+}
+
+.page-title a {
+  color: inherit;
+}
+
+.page-title a img{
+  height: 50%;
+  vertical-align: middle;
+  margin-top: 5px;
+}
+
+.name {
+  vertical-align: middle;
+}
+
 section {
   display: block;
   margin: 0 0 30px 0;
@@ -53,10 +94,10 @@ li {
 */
 
 header {
-  background: url(../images/head_back.jpg) bottom center no-repeat fixed;
+  background: url(../images/head_back.jpg) top center no-repeat fixed;
   background-size: auto;
   width: 100%;
-  padding: 20px 0;
+  padding: 0 0 20px 0;
   margin: 0 0 40px 0;
   box-shadow: 0px 2px 40px 0px rgba(0,0,0,0.08);
 }
@@ -350,7 +391,7 @@ a {
 .left-float-panel {
   position: fixed;
   left: 0;
-  top: 30px;
+  top: 50px;
   width: 50px;
   background-color: rgba(100, 100, 100, 0.1);
 
@@ -551,10 +592,27 @@ strong.warning {
   color: #c0f563;
 }
 
+.float-tabbar {
+  display: inline-block;
+  text-align: center;
+  width: 300px;
+}
+
+.float-tabbar .tab {
+  width: 45%;
+  height: 32px;
+  padding-top: 15px;
+}
+
 .tabbar {
   text-align: center;
   height: 35px;
   margin-bottom: 40px;
+}
+
+.tabbar-container {
+  vertical-align: middle;
+  height: 50px;
 }
 
 .tab {

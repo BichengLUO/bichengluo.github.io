@@ -30,8 +30,10 @@ $(function() {
     var y = $(this).scrollTop();
     if (y > 570) {
       $('.left-float-panel').addClass('left-float-panel-show');
+      $('.head-back').addClass('head-back-show');
     } else {
       $('.left-float-panel').removeClass('left-float-panel-show');
+      $('.head-back').removeClass('head-back-show');
     }
   });
 
@@ -52,7 +54,7 @@ $(function() {
 
   $('.experiences').click(function(){
     $('.projects').removeClass('tab-on').addClass('tab-off');
-    $(this).removeClass('tab-off').addClass('tab-on');
+    $('.experiences').removeClass('tab-off').addClass('tab-on');
     $('.projects-container').addClass('containers-off');
     $('.experiences-container').removeClass('containers-off');
     $('.projects-navi').addClass('navis-off');
@@ -61,7 +63,7 @@ $(function() {
 
   $('.projects').click(function(){
     $('.experiences').removeClass('tab-on').addClass('tab-off');
-    $(this).removeClass('tab-off').addClass('tab-on');
+    $('.projects').removeClass('tab-off').addClass('tab-on');
     $('.experiences-container').addClass('containers-off');
     $('.projects-container').removeClass('containers-off');
     $('.experiences-navi').addClass('navis-off');
