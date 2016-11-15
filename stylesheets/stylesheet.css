@@ -28,7 +28,7 @@ body {
   width: 100%;
   background-color: rgba(30, 30, 30, 0.98);
   position:fixed;
-  z-index: 200;
+  z-index: -200;
   box-shadow: 0px 2px 40px 0px rgba(0,0,0,0.8);
   opacity: 0;
   -webkit-transition-duration: 0.15s;
@@ -37,6 +37,7 @@ body {
 
 .head-back-show {
   opacity: 1;
+  z-index: 200;
 }
 
 .head-container {
@@ -91,7 +92,7 @@ body {
 }
 
 .light-mode-btn {
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 section {
