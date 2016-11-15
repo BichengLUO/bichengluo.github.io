@@ -64,6 +64,36 @@ body {
   vertical-align: middle;
 }
 
+.light-mode {
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
+  height: 50px;
+  color: inherit;
+  padding: 0 10px 0 10px;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.light-mode .light-mode-btn svg {
+  fill: rgb(255, 255, 255);
+  -webkit-transition: fill 0.15s ease-in-out;
+  transition: fill 0.15s ease-in-out;
+}
+
+.light-mode:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.light-mode:hover .light-mode-btn svg {
+  fill: rgb(0, 0, 0);
+}
+
+.light-mode-btn {
+  padding-top: 10px;
+}
+
 section {
   display: block;
   margin: 0 0 30px 0;
