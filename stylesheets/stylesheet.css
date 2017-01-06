@@ -125,7 +125,7 @@ li {
 */
 
 header {
-  background: url(../images/head_back.jpg) top center no-repeat fixed;
+  background: url(../images/head_back.jpg) bottom center no-repeat fixed;
   background-size: auto;
   width: 100%;
   padding: 0 0 20px 0;
