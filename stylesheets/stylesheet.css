@@ -747,6 +747,16 @@ strong.warning {
   transition: all 0.15s ease-in-out;
 }
 
+.extra-title img {
+  width: auto;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.extra-title span {
+  font-size: 80%;
+}
+
 .extra-title:hover {
   background-color: rgba(200, 200, 200, 0.2);
   cursor: pointer;
@@ -754,6 +764,7 @@ strong.warning {
 
 .extra-content {
   padding: 20px;
+  display: none;
 }
 
 .extra-img {

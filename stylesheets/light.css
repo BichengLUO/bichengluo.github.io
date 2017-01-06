@@ -847,6 +847,16 @@ strong.warning {
   fill: white;
 }
 
+.extra-title img {
+  width: auto;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.extra-title span {
+  font-size: 80%;
+}
+
 .extra-title:hover {
   background-color: rgba(0, 0, 0, 0.6);
   cursor: pointer;
