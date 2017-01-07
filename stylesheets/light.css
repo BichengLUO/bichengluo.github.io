@@ -939,9 +939,10 @@ strong.warning {
 	margin-top: 3px;
 	display: inline-block;
 	position: relative;
+  cursor: pointer;
 }
 
-.thumbnails div a img {
+.thumbnails div img {
 	height:70px;
 	width: auto;
 	display:inline-block;
