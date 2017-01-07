@@ -89,4 +89,15 @@ $(function() {
     var vote_count = $(this).find('.vote_count');
     vote_count.text(parseInt(vote_count.text()) + 1);
   });
+  
+  $('.thumbnails .hvr-grow').click(function(){
+    var ind = $(this).index();
+    var h_iframe = $(this).parent().prev();
+    var last_ind = parseInt(h_iframe.attr('tag'));
+    h_iframe.attr('tag', ind);
+    var last_obj = h_iframe.children()[last_ind + 1];
+    var obj = h_iframe.children()[ind + 1];
+    $(last_obj).css("display", "none");
+    $(obj).css("display", "block");
+  });
 });

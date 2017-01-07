@@ -916,7 +916,11 @@ strong.warning {
 .h_iframe {
   position:relative;
 }
-.h_iframe .ratio {display:block;width:100%;height:auto;}
+.h_iframe .ratio {
+  display:block;
+  width:100%;
+  height:auto;
+}
 .h_iframe iframe {
   position:absolute;
   top:0;
@@ -924,6 +928,18 @@ strong.warning {
   width:100%;
   height:100%;
   border: solid rgb(220, 220, 220) 1px;
+}
+.h_iframe div {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  text-align: center;
+}
+.h_iframe div img {
+  width: auto;
+  height: 100%;
 }
 
 .thumbnails {
