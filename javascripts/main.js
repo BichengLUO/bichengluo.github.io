@@ -90,7 +90,8 @@ $(function() {
     vote_count.text(parseInt(vote_count.text()) + 1);
   });
 
-  $('.thumbnails').perfectScrollbar();
+  $('#rac_thumbnails').perfectScrollbar();
+  $('#lfc_thumbnails').perfectScrollbar();
 
   $('.thumbnails .hvr-grow').click(function(){
     var ind = $(this).index();
