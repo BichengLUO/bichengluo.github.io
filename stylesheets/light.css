@@ -926,6 +926,37 @@ strong.warning {
   border: solid rgb(220, 220, 220) 1px;
 }
 
+.thumbnails {
+	height:93px;
+	margin: 0;
+	overflow-x: scroll;
+    overflow-y: hidden;
+	white-space:nowrap;
+	background-color: rgba(255,255,255,0.8);
+}
+
+.thumbnails div {
+	margin-top: 3px;
+	display: inline-block;
+	position: relative;
+}
+
+.thumbnails div a img {
+	height:70px;
+	width: auto;
+	display:inline-block;
+}
+
+.thumbnails div .play_button {
+	display:inline-block;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	padding: 5px;
+	top: 20%;
+	left: 35%;
+}
+
 @media screen and (max-width:900px) {
   .text-editor-wrap {
     max-height: 150px;
