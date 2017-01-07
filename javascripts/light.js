@@ -88,6 +88,8 @@ $(function() {
     vote_count.text(parseInt(vote_count.text()) + 1);
   });
 
+  $('.thumbnails').perfectScrollbar();
+
   $('.thumbnails .hvr-grow').click(function(){
     var ind = $(this).index();
     var h_iframe = $(this).parent().prev();

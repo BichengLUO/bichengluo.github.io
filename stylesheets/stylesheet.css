@@ -828,11 +828,10 @@ strong.warning {
 }
 
 .thumbnails {
-	height:93px;
-	margin: 0;
-	overflow-x: scroll;
-    overflow-y: hidden;
-	white-space:nowrap;
+	height: 90px;
+	margin-top: 2px;
+  position: relative;
+	white-space: nowrap;
 }
 
 .thumbnails div {
