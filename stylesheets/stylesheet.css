@@ -832,6 +832,7 @@ strong.warning {
 	margin-top: 2px;
   position: relative;
 	white-space: nowrap;
+  overflow-x: hidden;
 }
 
 .thumbnails div {
@@ -839,12 +840,12 @@ strong.warning {
 	display: inline-block;
 	position: relative;
   cursor: pointer;
+  height: 70px;
 }
 
 .thumbnails div img {
-	height:70px;
-	width: auto;
 	display:inline-block;
+  border: solid rgba(0, 0, 0, 0.5) 1px;
 }
 
 .thumbnails div .play_button {

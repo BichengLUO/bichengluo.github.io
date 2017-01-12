@@ -88,9 +88,6 @@ $(function() {
     vote_count.text(parseInt(vote_count.text()) + 1);
   });
 
-  $('#rac_thumbnails').perfectScrollbar();
-  $('#lfc_thumbnails').perfectScrollbar();
-
   $('.thumbnails .hvr-grow').click(function(){
     var ind = $(this).index();
     var h_iframe = $(this).parent().prev();
@@ -101,4 +98,8 @@ $(function() {
     $(last_obj).css("display", "none");
     $(obj).css("display", "block");
   });
+
+  var myLazyLoad = new LazyLoad();
+  $('#rac_thumbnails').perfectScrollbar();
+  $('#lfc_thumbnails').perfectScrollbar();
 });
