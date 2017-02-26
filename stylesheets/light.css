@@ -11,26 +11,6 @@ svg {
   vertical-align: middle;
 }
 
-@keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-
-@keyframes text_fadein {
-    from {
-        background-color: rgba(0, 0, 0, 0.05);
-        color: rgba(0, 0, 0, 0);
-    }
-    to {
-        background-color: rgba(0, 0, 0, 0);
-        color: rgba(0, 0, 0, 1.0);
-    }
-}
-
 .tooltip {
     position: relative;
     display: inline-block;
@@ -149,7 +129,6 @@ svg {
   margin: 5%;
   border-radius: 5px;
   border: solid 1px rgb(220, 220, 220);
-  animation: fadein 2s;
 }
 
 .profile .info {
@@ -340,7 +319,6 @@ hr {
   display: inline-block;
   height: 50px;
   font-size: 150%;
-  animation: fadein 2s;
 }
 
 .page-title a {
@@ -456,7 +434,6 @@ a {
 .project_icon {
   width: 80px;
   height: 80px;
-  animation: fadein 2s;
 }
 
 .project_agenda {
@@ -770,7 +747,6 @@ strong.warning {
   cursor: pointer;
   margin: 0;
   padding-top: 10px;
-  animation: fadein 2s;
 }
 
 .tab-on {
@@ -829,7 +805,6 @@ strong.warning {
   width: 30px;
   height: auto;
   vertical-align: middle;
-  animation: fadein 2s;
 }
 
 .tags-return {
@@ -848,7 +823,6 @@ strong.warning {
   width: 30px;
   height: auto;
   vertical-align: middle;
-  animation: fadein 2s;
 }
 
 .extra {
@@ -936,7 +910,6 @@ strong.warning {
 
 .container p, .container ul, .extra p{
   font-size: 90%;
-  animation: text_fadein 0.5s;
 }
 
 .h_iframe {
