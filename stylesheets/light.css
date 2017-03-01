@@ -125,10 +125,22 @@ svg {
   box-shadow: 0 20px 20px rgba(0,0,0,.08);
 }
 
+.profile .portrait .hide {
+  margin: 12px;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: opacity 0.1s ease-in-out;
+  transition: opacity 0.1s ease-in-out;
+}
+
 .profile .portrait img {
-  margin: 5%;
+  margin: 12px;
   border-radius: 5px;
   border: solid 1px rgb(220, 220, 220);
+}
+
+.profile .portrait .hide:hover {
+  opacity: 1.0;
 }
 
 .profile .info {
