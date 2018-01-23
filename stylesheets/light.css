@@ -96,9 +96,12 @@ svg {
 }
 
 .left-col {
-  padding-top: 80px;
+  margin-top: 80px;
   display: inline-block;
   width: 70%;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 20px 20px rgba(0,0,0,.1);
 }
 
 .right-col {
@@ -110,7 +113,6 @@ svg {
 
 .container {
   background-color: rgb(255, 255, 255);
-  padding: 20px;
   border-style: solid;
   border-width: 0 0 1px 0;
   border-color: rgb(220, 220, 220);
@@ -119,11 +121,12 @@ svg {
 }
 
 .friends {
+  border-radius: 15px;
+  overflow: hidden;
   margin-top: 30px;
   margin-left: 10px;
   background-color: rgb(255, 255, 255);
-  border: solid 1px rgba(220, 220, 220, 0);
-  box-shadow: 0 20px 20px rgba(0,0,0,.08);
+  box-shadow: 0 20px 20px rgba(0,0,0,.1);
 }
 
 .friends .info {
@@ -156,24 +159,18 @@ svg {
 
 
 .profile {
+  border-radius: 15px;
+  overflow: hidden;
   margin-left: 10px;
   background-color: rgb(255, 255, 255);
-  border: solid 1px rgba(220, 220, 220, 0);
-  box-shadow: 0 20px 20px rgba(0,0,0,.08);
+  box-shadow: 0 20px 20px rgba(0,0,0,.1);
 }
 
 .profile .portrait .hide {
-  margin: 12px;
   position: absolute;
   opacity: 0;
   -webkit-transition: opacity 0.1s ease-in-out;
   transition: opacity 0.1s ease-in-out;
-}
-
-.profile .portrait img {
-  margin: 12px;
-  border-radius: 5px;
-  border: solid 1px rgb(220, 220, 220);
 }
 
 .profile .portrait .hide:hover {
@@ -182,7 +179,7 @@ svg {
 
 .profile .info {
   margin: 0 5% 5% 5%;
-  font-size: 90%;
+  font-size: 85%;
   color: rgb(120, 120, 120);
   padding-bottom: 10px;
   border-bottom: solid 1px rgb(220, 220, 220);
@@ -195,8 +192,9 @@ svg {
 
 .profile .contact {
   margin: 0 5% 5% 5%;
-  font-size: 90%;
+  font-size: 85%;
   color: rgb(120, 120, 120);
+  padding-bottom: 12px;
 }
 
 .container:hover {
@@ -236,7 +234,7 @@ header {
   width: 100%;
   position:fixed;
   z-index: 200;
-  box-shadow: 0px 2px 40px 0px rgba(0,0,0,0.08);
+  box-shadow: 0px 2px 40px 0px rgba(0,0,0,0.1);
 }
 
 header h1 {
@@ -317,8 +315,8 @@ ul li:before {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 13px;
   color: #b5e853;
-  margin-left: -37px;
-  margin-right: 21px;
+  margin-left: -27px;
+  margin-right: 11px;
   line-height: 16px;
 }
 
@@ -486,7 +484,8 @@ a {
 }
 
 .project_agenda {
-  width: 100%;
+  width: 95%;
+  padding: 20px 20px 0 20px;
 }
 
 .project_agenda, .project_img, .project_info {
@@ -589,7 +588,8 @@ a {
   top: 50px;
   width: 50px;
   background-color: rgb(255, 255, 255);
-  box-shadow: 0 20px 20px rgba(0,0,0,.08);
+  box-shadow: 0 20px 20px rgba(0,0,0,.1);
+  border-radius: 0 0 10px 0;
 
   transform: translateX(-70px);
   transition-duration: 0.15s;
@@ -617,8 +617,7 @@ a {
 }
 
 .demo-pic {
-  border-radius: 5px;
-  border: solid rgb(220, 220, 220) 1px;
+  padding: 0 20px 0 20px;
 }
 
 /* Grow */
@@ -765,7 +764,7 @@ a {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 2px 5px 2px 5px;
   display: inline-block;
-  left: 5px;
+  left: 25px;
   bottom: 10px;
   z-index: 100;
   font-size: 80%;
@@ -785,17 +784,18 @@ strong.warning {
 .tabbar {
   display: inline-block;
   text-align: center;
-  width: 300px;
+  width: 450px;
 }
 
 .tab {
   display: inline-block;
-  width: 49%;
-  height: 37px;
+  width: 30%;
+  height: 33px;
   text-align: center;
   cursor: pointer;
   margin: 0;
-  padding-top: 10px;
+  padding-top: 15px;
+  font-size: 90%;
 }
 
 .tab-on {
@@ -932,6 +932,7 @@ strong.warning {
 
 .vote-container {
   text-align: right;
+  padding: 0 20px 20px 20px;
 }
 
 .vote {
@@ -960,6 +961,9 @@ strong.warning {
 .container p, .container ul, .extra p{
   font-size: 90%;
 }
+.container p, .extra p{
+  padding: 0 20px 0 20px;
+}
 
 .h_iframe {
   position:relative;
@@ -975,7 +979,6 @@ strong.warning {
   left:0;
   width:100%;
   height:100%;
-  border: solid rgb(220, 220, 220) 1px;
 }
 .h_iframe div {
   position:absolute;
@@ -996,7 +999,6 @@ strong.warning {
 	margin-top: 2px;
   position: relative;
 	white-space: nowrap;
-	background-color: rgba(255,255,255,0.8);
   overflow-x: hidden;
 }
 
@@ -1010,7 +1012,6 @@ strong.warning {
 
 .thumbnails div img {
 	display:inline-block;
-  border: solid rgb(220, 220, 220) 1px;
 }
 
 .thumbnails div .play_button {
