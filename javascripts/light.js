@@ -99,7 +99,6 @@ $(function() {
     $(obj).css("display", "block");
   });
 
-  var myLazyLoad = new LazyLoad();
   $('#rac_thumbnails').perfectScrollbar();
   $('#lfc_thumbnails').perfectScrollbar();
 });
