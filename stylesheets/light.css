@@ -962,6 +962,10 @@ strong.warning {
   padding: 0 20px 0 20px;
 }
 
+.container ul {
+  padding: 0 20px 0 50px;
+}
+
 .h_iframe {
   position:relative;
 }
