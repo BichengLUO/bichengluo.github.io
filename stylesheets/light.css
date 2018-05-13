@@ -1121,6 +1121,12 @@ strong.warning {
   .container p, .container ul, .extra p {
     font-size: 80%;
   }
+  .project_info {
+    font-size: 90%;
+  }
+  .left-col {
+    overflow: hidden;
+  }
 }
 
 @media screen and (max-width: 385px) {
