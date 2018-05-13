@@ -552,6 +552,10 @@ a {
   color: #a04010;
 }
 
+.project_info span.PyTorch {
+  color: #0140a0;
+}
+
 .project_info span.AR {
   color: #b04710;
 }
