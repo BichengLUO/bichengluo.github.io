@@ -544,6 +544,10 @@ a {
   color: #0a00a6;
 }
 
+.project_info span.Webots {
+  color: #8f0a20;
+}
+
 .project_info span.Win32 {
   color: #a0006a;
 }
