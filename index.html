@@ -42,6 +42,7 @@
 
     <div class="left-float-panel">
       <div class="projects-navi">
+        <a class="hvr-fade tooltip-left" href="#SRGAN-Flow-Loss"><img class="grayscale" src="images/srgan.png" /><span class="tooltiptext">SRGAN + Flow Loss</span></a>
         <a class="hvr-fade tooltip-left" href="#ARecorder"><img class="grayscale" src="images/arecorder.png" /><span class="tooltiptext">ARecorder</span></a>
         <a class="hvr-fade tooltip-left" href="#PR2-GOGR"><img class="grayscale" src="images/pr2gogr.png" /><span class="tooltiptext">PR2-GOGR</span></a>
         <a class="hvr-fade tooltip-left" href="#ROIUNIT"><img class="grayscale" src="images/roiunit.png" /><span class="tooltiptext">ROI Constraint UNIT</span></a>
@@ -70,6 +71,36 @@
     <div id="top-link" class="center-col">
       <div class="left-col">
         <div class="projects-container">
+        <div id="SRGAN-Flow-Loss" class="container">
+            <div class="project_agenda">
+              <div class="project_img hvr-grow">
+                <a href="https://github.com/BichengLUO/SRGAN-with-Flow-Loss" target="_blank"><img class="project_icon" src="images/srgan.png"/></a>
+              </div>
+              <div class="project_info">
+                <svg width="15" height="15" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1504 448q0-40-28-68t-68-28-68 28-28 68 28 68 68 28 68-28 28-68zm224-288q0 249-75.5 430.5t-253.5 360.5q-81 80-195 176l-20 379q-2 16-16 26l-384 224q-7 4-16 4-12 0-23-9l-64-64q-13-14-8-32l85-276-281-281-276 85q-3 1-9 1-14 0-23-9l-64-64q-17-19-5-39l224-384q10-14 26-16l379-20q96-114 176-195 188-187 358-258t431-71q14 0 24 9.5t10 22.5z" /></svg>&nbsp;&nbsp;<strong>SRGAN + Flow Loss</strong><br>
+                <svg width="15" height="15" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M192 1664h288v-288h-288v288zm352 0h320v-288h-320v288zm-352-352h288v-320h-288v320zm352 0h320v-320h-320v320zm-352-384h288v-288h-288v288zm736 736h320v-288h-320v288zm-384-736h320v-288h-320v288zm768 736h288v-288h-288v288zm-384-352h320v-320h-320v320zm-352-864v-288q0-13-9.5-22.5t-22.5-9.5h-64q-13 0-22.5 9.5t-9.5 22.5v288q0 13 9.5 22.5t22.5 9.5h64q13 0 22.5-9.5t9.5-22.5zm736 864h288v-320h-288v320zm-384-384h320v-288h-320v288zm384 0h288v-288h-288v288zm32-480v-288q0-13-9.5-22.5t-22.5-9.5h-64q-13 0-22.5 9.5t-9.5 22.5v288q0 13 9.5 22.5t22.5 9.5h64q13 0 22.5-9.5t9.5-22.5zm384-64v1280q0 52-38 90t-90 38h-1408q-52 0-90-38t-38-90v-1280q0-52 38-90t90-38h128v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h384v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h128q52 0 90 38t38 90z" /></svg>&nbsp;&nbsp;2018.12.10<br>
+                <svg width="15" height="15" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M553 1399l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23t-10 23l-393 393 393 393q10 10 10 23t-10 23zm591-1067l-373 1291q-4 13-15.5 19.5t-23.5 2.5l-62-17q-13-4-19.5-15.5t-2.5-24.5l373-1291q4-13 15.5-19.5t23.5-2.5l62 17q13 4 19.5 15.5t2.5 24.5zm657 651l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23t-10 23z" /></svg>&nbsp;&nbsp;<span class="Python">Python</span> <span class="TensorFlow">TensorFlow</span>
+              </div>
+              <div class="location">
+                <span>developed in <img src="images/seas.png" /></span>
+              </div>
+            </div>
+            <br>
+            <p>In this project, a loss function to improve upon the baseline approach which simply applies image supperresolution to each frame will be proposed. Based on the <a class="hvr-fade" href="https://github.com/tensorlayer/srgan" target="_blank">SRGAN</a> proposed by <a class="hvr-fade" href="https://arxiv.org/abs/1609.04802" target="_blank">Photo-Realistic Single Image Super-Resolution</a> Using a Generative Adversarial Network, we propose a novel specific loss function which does not take only one single frame but a bundle of temporally neighbouring frames into the GAN.</p>
+            <div class="demo-container">
+              <img class="demo-pic" src="images/srgan_flow_loss.gif" />
+              <span class="gif-type">GIF</span>
+            </div>
+            <p>The model takes a sliding window of several consecutive frames as the input for generator network and outputs a bundle of consecutive SR frames. A perceptual loss function regarding both the single frame superresolution quality and the temporal continuity is proposed and the experimental results will evaluate the quality of superresolved videos using this loss function. More detials can be found in the <a class="hvr-fade" href="https://github.com/BichengLUO/SRGAN-with-Flow-Loss" target="_blank">Github</a>.
+            <div class="vote-container">
+              <div class="vote tooltip">
+                <svg width="15" height="15" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M320 1344q0-26-19-45t-45-19q-27 0-45.5 19t-18.5 45q0 27 18.5 45.5t45.5 18.5q26 0 45-18.5t19-45.5zm160-512v640q0 26-19 45t-45 19h-288q-26 0-45-19t-19-45v-640q0-26 19-45t45-19h288q26 0 45 19t19 45zm1184 0q0 86-55 149 15 44 15 76 3 76-43 137 17 56 0 117-15 57-54 94 9 112-49 181-64 76-197 78h-129q-66 0-144-15.5t-121.5-29-120.5-39.5q-123-43-158-44-26-1-45-19.5t-19-44.5v-641q0-25 18-43.5t43-20.5q24-2 76-59t101-121q68-87 101-120 18-18 31-48t17.5-48.5 13.5-60.5q7-39 12.5-61t19.5-52 34-50q19-19 45-19 46 0 82.5 10.5t60 26 40 40.5 24 45 12 50 5 45 .5 39q0 38-9.5 76t-19 60-27.5 56q-3 6-10 18t-11 22-8 24h277q78 0 135 57t57 135z" fill="#a4a4a4"/></svg>&nbsp;
+                <span class="vote_count">0</span>
+                <span class="tooltiptext">Vote</span>
+              </div>
+            </div>
+          </div>
+
           <div id="ARecorder" class="container">
             <div class="project_agenda">
               <div class="project_img hvr-grow">
@@ -628,6 +659,7 @@
                 <img src="images/roiunit.png" />
                 <img src="images/pr2gogr.png" />
                 <img src="images/arecorder.png" />
+                <img src="images/srgan.png" />
               </div>
               <div class="vote tooltip">
                 <svg width="15" height="15" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M320 1344q0-26-19-45t-45-19q-27 0-45.5 19t-18.5 45q0 27 18.5 45.5t45.5 18.5q26 0 45-18.5t19-45.5zm160-512v640q0 26-19 45t-45 19h-288q-26 0-45-19t-19-45v-640q0-26 19-45t45-19h288q26 0 45 19t19 45zm1184 0q0 86-55 149 15 44 15 76 3 76-43 137 17 56 0 117-15 57-54 94 9 112-49 181-64 76-197 78h-129q-66 0-144-15.5t-121.5-29-120.5-39.5q-123-43-158-44-26-1-45-19.5t-19-44.5v-641q0-25 18-43.5t43-20.5q24-2 76-59t101-121q68-87 101-120 18-18 31-48t17.5-48.5 13.5-60.5q7-39 12.5-61t19.5-52 34-50q19-19 45-19 46 0 82.5 10.5t60 26 40 40.5 24 45 12 50 5 45 .5 39q0 38-9.5 76t-19 60-27.5 56q-3 6-10 18t-11 22-8 24h277q78 0 135 57t57 135z" fill="#a4a4a4"/></svg>&nbsp;

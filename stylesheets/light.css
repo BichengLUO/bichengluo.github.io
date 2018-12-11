@@ -560,6 +560,10 @@ a {
   color: #0140a0;
 }
 
+.project_info span.TensorFlow {
+  color: #ff9205;
+}
+
 .project_info span.AR {
   color: #b04710;
 }
